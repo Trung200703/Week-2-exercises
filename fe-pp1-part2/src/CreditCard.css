@@ -1,0 +1,65 @@
+.cards {
+  display: flex;
+  gap: 22px;
+  padding: 16px 30px;
+}
+
+.credit-card {
+  width: 400px;
+  height: 207px;
+
+  padding: 24px;
+
+  border-radius: 12px;
+
+  box-sizing: border-box;
+
+  position: relative;
+
+  font-family: Arial, sans-serif;
+}
+
+.card-logo {
+  position: absolute;
+
+  top: 18px;
+  right: 22px;
+
+  width: 65px;
+  height: 35px;
+
+  object-fit: contain;
+}
+
+.card-number {
+  position: absolute;
+
+  left: 25px;
+  top: 76px;
+
+  font-size: 36px;
+  letter-spacing: 2px;
+
+  white-space: nowrap;
+}
+
+.card-bottom {
+  position: absolute;
+
+  left: 25px;
+  bottom: 20px;
+}
+
+.card-info {
+  display: flex;
+  align-items: center;
+
+  gap: 25px;
+
+  font-size: 20px;
+}
+
+.card-owner {
+  font-size: 20px;
+  margin-top: 2px;
+}

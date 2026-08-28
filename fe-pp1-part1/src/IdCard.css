@@ -1,0 +1,20 @@
+
+.box {
+  display: flex;
+  border: 2px solid black;
+  width: 90%;
+  margin: 15px auto;
+  padding: 8px;
+}
+
+.box img {
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.in4 p {
+  margin: 2px;
+  font-size: 24px;
+}

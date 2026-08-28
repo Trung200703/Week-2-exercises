@@ -1,0 +1,13 @@
+.greeting {
+  width: 90%;
+
+  margin: 15px auto;
+  padding: 15px;
+
+  border: 2px solid black;
+
+  box-sizing: border-box;
+
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+}
